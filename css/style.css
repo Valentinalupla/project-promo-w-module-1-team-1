@@ -6,3 +6,66 @@
 
     width: 100px;
 }
+
+/* QUITAR ANTES DE MERGE */
+.section_img_background {
+    background-color: rgb(226, 247, 240);
+    height: 100px;
+}
+
+/* QUITAR ANTES DE MERGE */
+.section_abilities {
+    background-color: rgb(228, 251, 244);
+    height: 1000px;
+}
+
+/* MI PARTE */
+.section_intro {
+    background-color: rgb(254, 226, 254);
+    height: 504px;
+
+}
+
+cite {
+    width: 260px;
+    height: 50px;
+    background-color: blueviolet;
+    /* funciona? */
+    font-family: opensans;
+    font-size: 18px;
+    font-weight: 600;
+    font-style: normal;
+    font-style: normal;
+    line-height: 1.39; /* espacio entre lineas */
+    letter-spacing: normal;
+    color: var (--black);
+}
+
+h3 {
+    width: 89px;
+    height: 45px; 
+    margin: 0 99 .5px 15px 101 .5px; /* no lo entiendo */
+    font-size: 24px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.88;
+    letter-spacing: normal;
+    text-align: center;
+    color: var (--aqua);
+}
+
+.section_intro p {
+    width: 290px;
+    height: 384px;
+    margin: 15px 0 0;
+    font-family: OpenSans;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style:normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: center;
+    color: var (--gunmental);
+}
