@@ -1,8 +1,27 @@
 * {
-    font-family: 'Rubik', sans-serif
+    font-family: 'Rubik', sans-serif;
 }
 
 .figure_img img {
 
     width: 100px;
+}
+
+.header_group_name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: #099d8d;
+    color: white;
+    font-size: 20pt;
+    height: 3.75rem;
+}
+.nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #14d9c4;
+    height: 2.813rem;
+    color: white;
 }
