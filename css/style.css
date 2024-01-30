@@ -13,22 +13,20 @@
     justify-content: center;
     align-items: center;
     width: 100%;
+    height: 3.75rem;
     background: rgba(9,157,141,0.7);
-    /* background-color: #099d8d; */
-    /* opacity: 0.7; */
     color: white;
     font-size: 20pt;
     height: 3.75rem;
 }
 .nav {
+    width: 100%;
+    height: 2.813rem;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
-    /* background-color: #14d9c4; */
     background: rgba(20,217,196,0.7);
-    /* opacity: 0.7; */
-    height: 2.813rem;
     color: white;
-    font-weight: bolder;
+    font-weight: bold;
 }
