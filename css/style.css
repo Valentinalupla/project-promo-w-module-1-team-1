@@ -6,3 +6,12 @@
 
     width: 100px;
 }
+
+.section_img_background {
+    width: 20rem;
+    height: 26.313rem;
+    background-color: pink;
+    display: block;
+       
+    
+}
