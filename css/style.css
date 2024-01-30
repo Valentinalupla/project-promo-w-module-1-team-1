@@ -18,6 +18,8 @@
     color: white;
     font-size: 20pt;
     height: 3.75rem;
+    position: sticky;
+    top: 0;
 }
 .nav {
     width: 100%;
@@ -29,4 +31,6 @@
     background: rgba(20,217,196,0.7);
     color: white;
     font-weight: bold;
+    position: sticky;
+    top: 0;
 }
