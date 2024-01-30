@@ -9,19 +9,23 @@
 
 .header_group_name {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     width: 100%;
     background-color: #099d8d;
+    opacity: 0.7;
     color: white;
     font-size: 20pt;
     height: 3.75rem;
 }
 .nav {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
     background-color: #14d9c4;
+    opacity: 0.7;
     height: 2.813rem;
     color: white;
 }
