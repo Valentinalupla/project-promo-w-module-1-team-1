@@ -10,8 +10,9 @@
 .section_img_background {
     width: 20rem;
     height: 26.313rem;
-    background-color: pink;
-    display: block;
-       
+    display: block;   
     
+}
+.section_img_background img{
+    width: 100%;
 }
