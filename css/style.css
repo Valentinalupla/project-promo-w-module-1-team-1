@@ -10,7 +10,8 @@
 .section_img_background {
     width: 20rem;
     height: 26.313rem;
-    display: block;   
+    position: relative;  
+    bottom: 90px;
     
 }
 .section_img_background img{
