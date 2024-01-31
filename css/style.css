@@ -5,7 +5,7 @@
 .section_us {
 
     width: 320px;
-    padding: 0 0.938rem 0;
+    padding: 0 0.938rem;
 
 
 }
@@ -33,13 +33,15 @@
     text-align: center;
 
 
+
+
 }
 
 .section_us p {
     text-decoration: color #54585a;
     font-size: 1rem;
-    padding: 0px 15px 15px 15px;
-    margin-top: 0;
+    padding: 0px 3px 15px 3px;
+
 
 }
 
