@@ -2,10 +2,7 @@
     font-family: 'Rubik', sans-serif;
 }
 
-.figure_img img {
 
-    width: 100px;
-}
 
 
 .header_group_name {
@@ -94,4 +91,16 @@ h3 {
     letter-spacing: normal;
     text-align: center;
     color: var (--gunmetal);
+    }
+
+    /* SECTION 1 */
+.section_img_background {
+    width: 20rem;
+    height: 26.313rem;
+    position: relative;  
+    bottom: 90px;
+    
+}
+.section_img_background img{
+    width: 100%;
 }
