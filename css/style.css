@@ -4,6 +4,8 @@
 
 
 
+/* HEADER */
+
 
 .header_group_name {
     display: flex;
@@ -19,6 +21,7 @@
     position: sticky;
     top: 0;
 }
+
 .nav {
     width: 100%;
     height: 2.813rem;
@@ -40,7 +43,25 @@ a:hover{
     color: rgb(0, 71, 54);
 }
 
-/* MI PARTE */
+
+
+    /* SECTION 1 */
+
+
+    .section_img_background {
+        width: 20rem;
+        height: 26.313rem;
+        position: relative;  
+        bottom: 90px;
+        
+    }
+    .section_img_background img{
+        width: 100%;
+        width: 100px;
+    }
+
+/* SECCION 2 */
+
 .section_intro {
     background-color: rgb(254, 226, 254);
     height: 504px;
@@ -93,18 +114,44 @@ h3 {
     color: var (--gunmetal);
     }
 
-    /* SECTION 1 */
-.section_img_background {
-    width: 20rem;
-    height: 26.313rem;
-    position: relative;  
-    bottom: 90px;
+
+
+
+/* SECCION 3 */
+
+
+.section_abilities {
     
+    display: flex;
+    background:rgba(184, 184, 185, 0.3);
+    flex-direction: column;
+    width: 320px;
+    height: 579px;
+    padding: 30px 15px 0px;
+   
 }
-.section_img_background img{
-    width: 100%;
-    width: 100px;
+.section_abilities h2{
+font-size: 22px;
+color: #0f776c;
+padding: 10px;
+text-align: center;
+font-weight: bolder;
 }
+.abilities_1, .abilities_2 p {
+width: 290px;
+height: 192px;
+text-align: center;
+font-size: 16px;
+margin-bottom: 30px;
+}
+
+/* SECCION 4 */
+
+
+
+/* FOOTER */
+
+
 footer {
     width: 20rem;
     height: 15.625rem;
@@ -141,3 +188,6 @@ footer img{
     margin-top: 20px;
   
 }
+
+
+
