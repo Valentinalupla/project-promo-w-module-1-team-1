@@ -1,56 +1,74 @@
 .section_intro {
-    background-color: rgb(254, 226, 254);
+    //background-color: #ffffff; /*quitar */
     // height: 504px;
+    width: 320px;
+    padding: 1.875rem 0.938rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 
-}
+    & span {
+        width: 18.125rem;
+        // height: 5rem; 
+        margin: -68.7px 15px 0;
+        padding: 0.875rem 0.938rem 1rem;
+        background-color: rgb(255, 255, 255);
+    }
+    & cite {
+        width: 16.25rem;
+        // height: 50px;
+        //background-color: rgb(202, 226, 232); /* quitar */
+        /* funciona? */
+        font-family: $font-text;
+        font-size: 1.125rem;
+        font-weight: 600;
+        font-style: normal;
+        font-style: normal;
+        line-height: 1.39;
+        letter-spacing: normal;
+        color: $color-cite;
+    }
 
-cite {
-    width: 260px;
-    // height: 50px;
-    background-color: rgb(183, 225, 235);
-    /* quitar */
-    /* funciona? */
-    font-family: opensans;
-    font-size: 18px;
-    font-weight: 600;
-    font-style: normal;
-    font-style: normal;
-    line-height: 1.39;
-    /* espacio entre lineas */
-    letter-spacing: normal;
-    color: var (--black);
-}
+    & h3 {
+        width: 89px;
+        // height: 45px;
+        //background-color: beige;
+        /* quitar */
+        margin: 0 6.188rem .031rem 0.938rem 6.313rem .031rem;
+        /* no lo entiendo */
+        font-family: $font-title;
+        font-size: 1.5rem;
+        font-weight: 900;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.88;
+        letter-spacing: normal;
+        text-align: center;
+        color: $color-light;
+    }
 
-h3 {
-    width: 89px;
-    // height: 45px;
-    background-color: beige;
-    /* quitar */
-    margin: 0 99 .5px 15px 101 .5px;
-    /* no lo entiendo */
-    font-size: 24px;
-    font-weight: 500;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.88;
-    letter-spacing: normal;
-    text-align: center;
-    color: var (--aqua);
-}
+    & p {
+        background-color: rgb(246, 220, 201); /* quitar */
+        width: 290px;
+        // height: 384px;
+        margin: 0.938rem 0 0;
+        font-family: $font-text;
+        font-size: 1rem;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.5;
+        letter-spacing: normal;
+        text-align: center;
+        color: $color-text;
+    }
 
-.section_intro p {
-    width: 290px;
-    // height: 384px;
-    background-color: rgb(246, 220, 201);
-    /* quitar */
-    margin: 15px 0 0;
-    font-family: OpenSans;
-    font-size: 16px;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.5;
-    letter-spacing: normal;
-    text-align: center;
-    color: var (--gunmetal);
+    & div {
+        background-color: white;
+        width: 1.875rem;
+        height: 1.875rem;
+        border: 1px solid black;
+        transform: rotate(45deg);
+        margin: 3.05rem .9rem  -2.55rem .888rem;
+    }
 }
