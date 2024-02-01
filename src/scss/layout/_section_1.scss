@@ -1,12 +1,14 @@
 .section_img_background {
-    width: 20rem;
-    height: 26.313rem;
-    position: relative;
-    bottom: 90px;
-
+    width: 320px;
+    height: 421px;
+    background-size: 320px 421px;
+     position: 0;
+    // bottom: 90px;
+    background-image: url(/images/background.jpeg.jpg);
+   
 }
 
-.section_img_background img {
-    width: 100%;
-    width: 100px;
-}
+// .section_img_background img {
+//     width: 100%;
+    
+// }
