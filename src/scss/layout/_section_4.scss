@@ -4,6 +4,8 @@
     padding: 0 15px;
     font-family: $font-text;
 
+
+
     & div {
         display: flex;
         flex-direction: column;
@@ -20,7 +22,7 @@
 
 
         p {
-            width: 290px;
+
             padding: 0px 4px 15px 4px;
             text-decoration: $color-text;
             font-size: 1rem;
@@ -40,6 +42,8 @@
 
             }
         }
+
+
     }
 
 
@@ -71,6 +75,157 @@
         margin-right: 7px;
         content: "·";
         color: $color-text;
+
+    }
+}
+
+@media screen and (min-width: 768px) {
+
+    .section_us {
+        padding: 0px 45px;
+        width: 768px;
+
+        & h2 {
+
+            display: flex;
+            justify-content: center;
+
+        }
+
+        .section_right {
+
+            display: flex;
+            gap: 31px;
+
+            div {
+
+
+                display: flex;
+
+                justify-content: start;
+                padding: 0;
+
+                & h3 {
+                    margin-top: 0;
+                    width: 100%;
+                    display: flex;
+                    justify-content: left;
+
+
+
+                }
+
+                & p {
+
+                    width: 100%;
+                    text-align: start;
+                    margin-bottom: 10px;
+                    padding: 1px 0px 1px 0px;
+
+                }
+
+                & span {
+
+                    margin-top: 5px;
+                    width: 100%;
+                    display: flex;
+                    justify-content: start;
+
+                }
+
+
+            }
+
+
+            .figure_img {
+
+                display: flex;
+
+                justify-content: start;
+
+
+
+                & img {
+
+                    width: 206px;
+                    height: 206px;
+                    border-radius: 4px;
+                    border: 5px solid rgba(0, 0, 0, 0.08);
+                }
+
+            }
+
+
+        }
+
+        .section_left {
+
+            display: flex;
+            gap: 31px;
+            flex-direction: row-reverse;
+
+
+            div {
+
+
+                display: flex;
+
+                justify-content: start;
+                padding: 0;
+
+
+                & h3 {
+                    margin-top: 0;
+                    width: 100%;
+                    display: flex;
+                    justify-content: right;
+
+
+
+                }
+
+                & p {
+
+                    width: 100%;
+                    text-align: end;
+                    margin-bottom: 10px;
+                    padding: 1px 0px 1px 0px;
+
+                }
+
+                & span {
+
+                    margin-top: 5px;
+                    width: 100%;
+                    display: flex;
+                    justify-content: end;
+
+                }
+
+
+            }
+
+
+            .figure_img {
+
+                display: flex;
+
+                justify-content: start;
+
+
+
+                & img {
+
+                    width: 206px;
+                    height: 206px;
+                    border-radius: 4px;
+                    border: 5px solid rgba(0, 0, 0, 0.08);
+                }
+
+            }
+
+
+        }
 
     }
 }
