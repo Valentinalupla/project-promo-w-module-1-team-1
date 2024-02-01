@@ -1,0 +1,27 @@
+.section_abilities {
+
+    display: flex;
+    background: rgba(184, 184, 185, 0.3);
+    flex-direction: column;
+    width: 320px;
+    height: 579px;
+    padding: 30px 15px 0px;
+
+}
+
+.section_abilities h2 {
+    font-size: 22px;
+    color: #0f776c;
+    padding: 10px;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.abilities_1,
+.abilities_2 p {
+    width: 290px;
+    height: 192px;
+    text-align: center;
+    font-size: 16px;
+    margin-bottom: 30px;
+}
