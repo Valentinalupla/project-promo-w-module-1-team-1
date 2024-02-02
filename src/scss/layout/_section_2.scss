@@ -7,20 +7,20 @@
     flex-direction: column;
     align-items: center;
 
+// PONER EN REM SOLO EL TEXTO Y EN PX LO DEMAS //
     & span {
         width: 18.125rem;
         // height: 5rem; 
         margin: -68.7px 15px 0;
-        padding: 0.875rem 0.938rem 1rem;
+        padding: 0.875rem 0.938rem 2rem; //1.875rem;
         background-color: rgb(255, 255, 255);
     }
     & cite {
         width: 16.25rem;
         // height: 50px;
         //background-color: rgb(202, 226, 232); /* quitar */
-        /* funciona? */
         font-family: $font-text;
-        font-size: 1.125rem;
+        font-size: 1rem; /*1.125rem; hacer más pequeña?*/
         font-weight: 600;
         font-style: normal;
         font-style: normal;
@@ -32,29 +32,25 @@
     & h3 {
         width: 89px;
         // height: 45px;
-        //background-color: beige;
-        /* quitar */
         margin: 0 6.188rem .031rem 0.938rem 6.313rem .031rem;
-        /* no lo entiendo */
         font-family: $font-title;
         font-size: 1.5rem;
-        font-weight: 900;
-        font-stretch: normal;
+        font-weight: 500; 
+        font-stretch: normal; //no funciona
         font-style: normal;
         line-height: 1.88;
-        letter-spacing: normal;
+        letter-spacing: normal; 
         text-align: center;
         color: $color-light;
     }
 
     & p {
-        background-color: rgb(246, 220, 201); /* quitar */
         width: 290px;
         // height: 384px;
         margin: 0.938rem 0 0;
         font-family: $font-text;
         font-size: 1rem;
-        font-weight: normal;
+        font-weight: 300; /*la he cambiado de normal a 300*/
         font-stretch: normal;
         font-style: normal;
         line-height: 1.5;
@@ -67,8 +63,10 @@
         background-color: white;
         width: 1.875rem;
         height: 1.875rem;
-        border: 1px solid black;
+        //border: 1px solid black;
         transform: rotate(45deg);
-        margin: 3.05rem .9rem  -2.55rem .888rem;
+        margin: 1.05rem .9rem  -2.55rem .888rem;
     }
 }
+
+
