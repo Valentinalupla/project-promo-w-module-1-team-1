@@ -4,24 +4,25 @@
     background: rgba(184, 184, 185, 0.3);
     flex-direction: column;
     width: 320px;
-    // height: 579px;
     padding: 30px 15px 30px;
 
 }
 
 .section_abilities h2 {
-    font-size: 22px;
-    color: #0f776c;
+    font-size: 1.40rem;
+    font-family: $font-title;
+    color: $color-dark;
     padding: 10px;
     text-align: center;
     font-weight: bolder;
+    
 }
 
-.abilities_1,
-.abilities_2 p {
+.section_abilities  p {
     width: 290px;
-    // height: 192px;
     text-align: center;
-    font-size: 16px;
-    margin-bottom: 30px;
+    font-size: 1rem;
+    color: $color-text;
+    font-family: $font-title;
+    padding: 0px 15px 30px;
 }
