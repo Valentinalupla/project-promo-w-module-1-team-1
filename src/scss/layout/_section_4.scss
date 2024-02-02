@@ -1,8 +1,10 @@
 .section_us {
 
-    width: 320px;
+
     padding: 0 15px;
     font-family: $font-text;
+    width: 100%;
+    min-width: 320px;
 
 
 
@@ -10,6 +12,8 @@
         display: flex;
         flex-direction: column;
         align-items: center;
+
+
 
         h3 {
             padding: 10px 0px 10px 0px;
@@ -22,6 +26,7 @@
 
 
         p {
+
 
             padding: 0px 4px 15px 4px;
             text-decoration: $color-text;
@@ -53,6 +58,8 @@
         font-size: 1.5rem;
         color: $color-dark;
         font-family: $font-title;
+        text-align: center;
+
     }
 
     .figure_img {
@@ -83,7 +90,8 @@
 
     .section_us {
         padding: 0px 45px;
-        width: 768px;
+        width: 100%;
+        min-width: 768px;
 
         & h2 {
 
@@ -220,6 +228,161 @@
 
 
         }
+
+    }
+}
+
+@media screen and (min-width: 1200px) {
+
+    .section_us {
+        padding: 0px 138px;
+        width: 100%;
+        min-width: 1200px;
+
+
+        & h2 {
+
+            display: flex;
+            justify-content: center;
+
+        }
+
+        .section_right {
+
+            display: flex;
+            gap: 31px;
+
+            div {
+
+
+                display: flex;
+                justify-content: start;
+                padding: 0;
+                margin-right: 162px;
+
+
+                & h3 {
+                    margin-top: 0;
+                    width: 100%;
+                    display: flex;
+                    justify-content: left;
+
+
+
+                }
+
+                & p {
+
+                    width: 100%;
+                    text-align: start;
+                    margin-bottom: 10px;
+                    padding: 1px 0px 1px 0px;
+
+                }
+
+                & span {
+
+                    margin-top: 5px;
+                    width: 100%;
+                    display: flex;
+                    justify-content: start;
+
+                }
+
+
+            }
+
+
+            .figure_img {
+
+                display: flex;
+
+                //flex-direction: column;
+
+                & img {
+
+                    margin-bottom: 60px;
+                    width: 278px;
+                    height: 278px;
+                }
+
+            }
+
+
+        }
+
+        .section_left {
+
+            display: flex;
+            gap: 31px;
+            flex-direction: row-reverse;
+
+
+            div {
+
+
+                display: flex;
+                justify-content: start;
+                padding: 0;
+                margin-left: 162px;
+
+
+                & h3 {
+
+                    width: 100%;
+                    display: flex;
+                    justify-content: right;
+
+
+
+                }
+
+                & p {
+
+                    width: 100%;
+                    text-align: end;
+                    margin-bottom: 10px;
+                    padding: 1px 0px 1px 0px;
+
+                }
+
+                & span {
+
+                    margin-top: 5px;
+                    width: 100%;
+                    display: flex;
+                    justify-content: end;
+
+                }
+
+
+            }
+
+
+            .figure_img {
+
+                display: flex;
+
+
+                //flex-direction: column;
+
+
+
+
+                & img {
+
+
+                    width: 278px;
+                    height: 278px;
+                    margin-bottom: 60px;
+
+                }
+
+            }
+
+
+        }
+
 
     }
 }
