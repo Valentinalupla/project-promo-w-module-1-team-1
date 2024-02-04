@@ -1,14 +1,13 @@
-.section_img_background {
-    width: 320px;
-    height: 421px;
-    background-size: 320px 421px;
-     position: 0;
-    // bottom: 90px;
+.section1 {
+    width: 100%;
+    background-repeat: no-repeat;
+    height: 420px;
+    background-size: 100%;
     background-image: url(/images/background.jpeg.jpg);
-   
-}
-
-// .section_img_background img {
-//     width: 100%;
+    min-width: 320px;
+    background-position: center;
     
-// }
+    
+    
+    
+}
