@@ -3,7 +3,8 @@
     display: flex;
     background: rgba(184, 184, 185, 0.3);
     flex-direction: column;
-    width: 320px;
+    width: 100%;
+    min-width: 320px;
     padding: 30px 15px 30px;
 
 }
@@ -19,7 +20,7 @@
 }
 
 .section_abilities  p {
-    width: 290px;
+    width: 100%;
     text-align: center;
     font-size: 1rem;
     color: $color-text;
@@ -30,12 +31,44 @@
 @media (min-width: 768px) {
 
     .section_abilities {
-        
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        padding: 45px 45px 45px 45px;
+        justify-content: center;
+        gap: 30px;
 
+    div{
+            width: 50%;
+            text-align: center;
+            font-size: 1rem;
+        }  
+    }
+    .section_abilities p {
+        margin-top: 15px;
     }
 
 }
 
 @media (min-width: 1200px) {
+
+    .section_abilities {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        padding: 45px 138px 60px 138px;
+        justify-content: center;
+        gap: 45px;
+
+    div{
+            width: 50%;
+            text-align: center;
+            font-size: 1rem;
+        }  
+    }
+    .section_abilities p {
+        margin-top: 15px;
+    }
+
 
 }
