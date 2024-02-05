@@ -3,3 +3,45 @@
     padding: 0;
     box-sizing: border-box;
 }
+#form{
+    padding: 50px 300px 50px 300px;
+}
+fieldset{
+    border:none;
+    legend{
+        color: $color-dark;
+        font-weight: bold;
+        text-align: center;
+        // padding: 50px 30px 20px 30px;
+    }
+        p{
+            // padding: 0 200px 10px 200px;
+            text-align: center;
+        }
+    span{
+        color: $color-dark;
+    }
+}
+#full_name{
+    display: flex;
+}
+#email{
+    display: flex;
+}
+#phone{
+    
+    display: flex;
+
+}
+
+button{
+    background-color: $color-dark;
+    border: 1px solid ;
+    border-radius: 10%;
+    width: 200px;
+    padding: 10px;
+    color: white;
+    font-size: 10pt;
+    margin-left: 260px;
+   
+}
