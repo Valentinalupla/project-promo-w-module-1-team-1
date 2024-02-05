@@ -38,7 +38,7 @@
         line-height: 1.88;
         letter-spacing: normal; 
         text-align: center;
-        color: $color-light;
+        color: $color-dark;
     }
 
     & p {
@@ -57,12 +57,12 @@
     }
 
     & div {
-        background-color: white;
-        width: 30px;
-        height: 30px;
+        // background-color: white;
+        // width: 30px;
+        // height: 30px;
 
-        transform: rotate(45deg);
-        margin: 16.8px 14.4px  -40.8px 14.2px;
+        // transform: rotate(45deg);
+        // margin: 16.8px 14.4px -40.8px 14.2px;
     }
 }
 
@@ -102,6 +102,9 @@
             // width: 30px;
             // height: 30px;
             margin: 16.8px 14.4px -44px 14.2px; //CAMBIAR !!
+            position: fixed;
+            z-index: 1;
+
         }
     }
 }
