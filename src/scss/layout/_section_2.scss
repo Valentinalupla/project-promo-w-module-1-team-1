@@ -24,7 +24,7 @@
         font-style: normal;
         line-height: 1.39;
         letter-spacing: normal;
-        color: $color-cite;
+        color: black;
     }
 
     & h3 {
@@ -56,13 +56,12 @@
         color: $color-text;
     }
 
-    & div {
-        // background-color: white;
-        // width: 30px;
-        // height: 30px;
-
-        // transform: rotate(45deg);
-        // margin: 16.8px 14.4px -40.8px 14.2px;
+    &__triangle{
+        background-color: white;
+        width: 30px;
+        height: 30px;
+        transform: rotate(45deg);
+        margin: 16.8px 14.4px -40.8px 14.2px;
     }
 }
 
@@ -102,8 +101,8 @@
             // width: 30px;
             // height: 30px;
             margin: 16.8px 14.4px -44px 14.2px; //CAMBIAR !!
-            position: fixed;
-            z-index: 1;
+            // position: fixed;
+            // z-index: 1;
 
         }
     }
