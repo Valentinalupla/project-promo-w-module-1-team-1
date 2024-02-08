@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
+<<<<<<< HEAD
 #form{
     padding: 50px 300px 50px 300px;
     
@@ -17,32 +18,107 @@ fieldset{
     }
         p{
             // padding: 0 200px 10px 200px;
+=======
+// #form{
+//     padding: 50px 300px 50px 300px;
+// }
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    font-family: $font-text;
+    padding-top: 30px; 
+    color: $color-text;
+
+    &__contact {
+        border:none;
+        padding: 0 300px 0 300px;
+
+        legend {
+            color: $color-dark;
+            font-weight: bold;
+>>>>>>> 936c2ca8e933d7e49c04ec0c9b4235f497d6d6da
             text-align: center;
+            font-family: $font_title;
+            font-size: 24px;
+            padding-bottom: 10px;
+            // padding: 50px 30px 20px 30px;
         }
-    span{
-        color: $color-dark;
+            p {
+                // padding: 0 200px 10px 200px;
+                text-align: center;
+                margin-bottom: 30px;
+            }
+
+        span {
+            color: $color-dark;
+        }
+    }
+
+    &__data {
+        border:none;
+        display: flex;
+        flex-direction: column;
+        gap: 3px;
+       
+
+        span{
+            color: $color-dark;
+        }
+
+        input, textarea {
+            padding: 10px;
+            border: 1px solid $color-bg;
+        }
+
+        &--container {
+            display: flex;
+            justify-content: space-between;
+            margin: 10px 0 10px 0;
+            
+
+            div {
+                display: flex;
+                flex-direction: column;
+
+                .email {
+                    width: 300px;
+                    color: $color-text;
+                }
+            }
+        }
+
+        &--button{
+            display: flex;
+            justify-content: end;
+            margin: 10px 0 80px 0;
+
+            button {
+                background-color: $color-dark;
+                border: 1px solid ;
+                border-radius: 10%;
+                width: 200px;
+                padding: 10px;
+                color: white;
+                font-size: 1rem;
+            }
+        }
     }
 }
-#full_name{
-    display: flex;
-}
-#email{
-    display: flex;
-}
-#phone{
-    
-    display: flex;
 
-}
 
-button{
-    background-color: $color-dark;
-    border: 1px solid ;
-    border-radius: 10%;
-    width: 200px;
-    padding: 10px;
-    color: white;
-    font-size: 10pt;
-    margin-left: 260px;
-   
-}
+
+
+
+// #full_name{
+//     display: flex;
+// }
+// #email{
+//     display: flex;
+// }
+// #phone{
+//     display: flex;
+// }
+
