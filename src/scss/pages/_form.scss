@@ -3,25 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
-<<<<<<< HEAD
-#form{
-    padding: 50px 300px 50px 300px;
-    
-}
-fieldset{
-    border:none;
-    legend{
-        color: $color-dark;
-        font-weight: bold;
-        text-align: center;
-        // padding: 50px 30px 20px 30px;
-    }
-        p{
-            // padding: 0 200px 10px 200px;
-=======
-// #form{
-//     padding: 50px 300px 50px 300px;
-// }
+
 
 .form {
     display: flex;
@@ -39,7 +21,6 @@ fieldset{
         legend {
             color: $color-dark;
             font-weight: bold;
->>>>>>> 936c2ca8e933d7e49c04ec0c9b4235f497d6d6da
             text-align: center;
             font-family: $font_title;
             font-size: 24px;
